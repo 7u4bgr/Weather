@@ -1,0 +1,488 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.back {
+  background: linear-gradient(to right top, #eb81bd, #f79ce6, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+}
+.back .box1 {
+  background-color: #006970;
+  grid-column: 3/5;
+  grid-row: 1/6;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.back .box1 .nav1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.back .box1 .nav1 .i1 {
+  margin-left: 5px;
+}
+.back .box1 .nav1 .i2 {
+  margin-right: 5px;
+}
+.back .box1 .nav1 p {
+  margin-top: 15px;
+}
+.back .box1 .vector1 {
+  background: url(vector1.png) center/cover;
+  width: 70px;
+  height: 70px;
+  margin-left: 125px;
+  margin-top: 5px;
+}
+.back .box1 .grad1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.back .box1 .grad1 h2 {
+  margin-top: 15px;
+}
+.back .box1 .days {
+  color: white;
+}
+.back .box1 .days .days1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.back .box1 .days .days1 h2 {
+  font-size: 14px;
+  margin-left: 5px;
+}
+.back .box1 .days .days1 p {
+  margin-right: 5px;
+}
+.back .box1 .days .days2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.back .box1 .days .days2 h2 {
+  font-size: 14px;
+  margin-left: 5px;
+}
+.back .box1 .days .days2 p {
+  margin-right: 5px;
+}
+.back .box1 .days .days3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.back .box1 .days .days3 h2 {
+  font-size: 14px;
+  margin-left: 5px;
+}
+.back .box1 .days .days3 p {
+  margin-right: 5px;
+}
+.back .box2 {
+  background-color: #006970;
+  grid-column: 6/8;
+  grid-row: 1/6;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.back .box2 .nav1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.back .box2 .nav1 .i1 {
+  margin-left: 5px;
+}
+.back .box2 .nav1 .i2 {
+  margin-right: 5px;
+}
+.back .box2 .nav1 p {
+  margin-top: 15px;
+}
+.back .box2 .vector1 {
+  background: url(vector1.png) center/cover;
+  width: 70px;
+  height: 70px;
+  margin-left: 125px;
+  margin-top: 5px;
+}
+.back .box2 .grad1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.back .box2 .grad1 h2 {
+  margin-top: 15px;
+}
+.back .box2 .days {
+  color: white;
+}
+.back .box2 .days .days1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.back .box2 .days .days1 h2 {
+  font-size: 14px;
+  margin-left: 5px;
+}
+.back .box2 .days .days1 p {
+  margin-right: 5px;
+}
+.back .box2 .days .days2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.back .box2 .days .days2 h2 {
+  font-size: 14px;
+  margin-left: 5px;
+}
+.back .box2 .days .days2 p {
+  margin-right: 5px;
+}
+.back .box2 .days .days3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.back .box2 .days .days3 h2 {
+  font-size: 14px;
+  margin-left: 5px;
+}
+.back .box2 .days .days3 p {
+  margin-right: 5px;
+}
+.back .box3 {
+  background-color: #006970;
+  grid-column: 9/11;
+  grid-row: 1/6;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.back .box3 .nav1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.back .box3 .nav1 .i1 {
+  margin-left: 5px;
+}
+.back .box3 .nav1 .i2 {
+  margin-right: 5px;
+}
+.back .box3 .nav1 p {
+  margin-top: 15px;
+}
+.back .box3 .vector1 {
+  background: url(vector1.png) center/cover;
+  width: 70px;
+  height: 70px;
+  margin-left: 125px;
+  margin-top: 5px;
+}
+.back .box3 .grad1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.back .box3 .grad1 h2 {
+  margin-top: 15px;
+}
+.back .box3 .days {
+  color: white;
+}
+.back .box3 .days .days1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.back .box3 .days .days1 h2 {
+  font-size: 14px;
+  margin-left: 5px;
+}
+.back .box3 .days .days1 p {
+  margin-right: 5px;
+}
+.back .box3 .days .days2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.back .box3 .days .days2 h2 {
+  font-size: 14px;
+  margin-left: 5px;
+}
+.back .box3 .days .days2 p {
+  margin-right: 5px;
+}
+.back .box3 .days .days3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.back .box3 .days .days3 h2 {
+  font-size: 14px;
+  margin-left: 5px;
+}
+.back .box3 .days .days3 p {
+  margin-right: 5px;
+}
+.back .box4 {
+  background-color: #006970;
+  grid-column: 3/5;
+  grid-row: 7/12;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.back .box4 .nav1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.back .box4 .nav1 .i1 {
+  margin-left: 5px;
+}
+.back .box4 .nav1 .i2 {
+  margin-right: 5px;
+}
+.back .box4 .nav1 p {
+  margin-top: 15px;
+}
+.back .box4 .vector1 {
+  background: url(vector1.png) center/cover;
+  width: 70px;
+  height: 70px;
+  margin-left: 125px;
+  margin-top: 5px;
+}
+.back .box4 .grad1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.back .box4 .grad1 h2 {
+  margin-top: 15px;
+}
+.back .box4 .days {
+  color: white;
+}
+.back .box4 .days .days1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.back .box4 .days .days1 h2 {
+  font-size: 14px;
+  margin-left: 5px;
+}
+.back .box4 .days .days1 p {
+  margin-right: 5px;
+}
+.back .box4 .days .days2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.back .box4 .days .days2 h2 {
+  font-size: 14px;
+  margin-left: 5px;
+}
+.back .box4 .days .days2 p {
+  margin-right: 5px;
+}
+.back .box4 .days .days3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.back .box4 .days .days3 h2 {
+  font-size: 14px;
+  margin-left: 5px;
+}
+.back .box4 .days .days3 p {
+  margin-right: 5px;
+}
+.back .box5 {
+  background-color: #006970;
+  grid-column: 6/8;
+  grid-row: 7/12;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.back .box5 .nav1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.back .box5 .nav1 .i1 {
+  margin-left: 5px;
+}
+.back .box5 .nav1 .i2 {
+  margin-right: 5px;
+}
+.back .box5 .nav1 p {
+  margin-top: 15px;
+}
+.back .box5 .vector1 {
+  background: url(vector1.png) center/cover;
+  width: 70px;
+  height: 70px;
+  margin-left: 125px;
+  margin-top: 5px;
+}
+.back .box5 .grad1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.back .box5 .grad1 h2 {
+  margin-top: 15px;
+}
+.back .box5 .days {
+  color: white;
+}
+.back .box5 .days .days1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.back .box5 .days .days1 h2 {
+  font-size: 14px;
+  margin-left: 5px;
+}
+.back .box5 .days .days1 p {
+  margin-right: 5px;
+}
+.back .box5 .days .days2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.back .box5 .days .days2 h2 {
+  font-size: 14px;
+  margin-left: 5px;
+}
+.back .box5 .days .days2 p {
+  margin-right: 5px;
+}
+.back .box5 .days .days3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.back .box5 .days .days3 h2 {
+  font-size: 14px;
+  margin-left: 5px;
+}
+.back .box5 .days .days3 p {
+  margin-right: 5px;
+}
+.back .box6 {
+  background-color: #006970;
+  grid-column: 9/11;
+  grid-row: 7/12;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.back .box6 .nav1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.back .box6 .nav1 .i1 {
+  margin-left: 5px;
+}
+.back .box6 .nav1 .i2 {
+  margin-right: 5px;
+}
+.back .box6 .nav1 p {
+  margin-top: 15px;
+}
+.back .box6 .vector1 {
+  background: url(vector1.png) center/cover;
+  width: 70px;
+  height: 70px;
+  margin-left: 125px;
+  margin-top: 5px;
+}
+.back .box6 .grad1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.back .box6 .grad1 h2 {
+  margin-top: 15px;
+}
+.back .box6 .days {
+  color: white;
+}
+.back .box6 .days .days1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.back .box6 .days .days1 h2 {
+  font-size: 14px;
+  margin-left: 5px;
+}
+.back .box6 .days .days1 p {
+  margin-right: 5px;
+}
+.back .box6 .days .days2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.back .box6 .days .days2 h2 {
+  font-size: 14px;
+  margin-left: 5px;
+}
+.back .box6 .days .days2 p {
+  margin-right: 5px;
+}
+.back .box6 .days .days3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.back .box6 .days .days3 h2 {
+  font-size: 14px;
+  margin-left: 5px;
+}
+.back .box6 .days .days3 p {
+  margin-right: 5px;
+}/*# sourceMappingURL=style.css.map */

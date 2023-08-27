@@ -1,0 +1,500 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.back {
+    background: linear-gradient(to right top, #eb81bd, #f79ce6, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+
+    .box1 {
+        background-color: #006970;
+        grid-column: 3/5;
+        grid-row: 1/6;
+        margin-top: 30px;
+        border-radius: 10px;
+
+        .nav1 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            .i1 {
+                margin-left: 5px;
+            }
+            .i2 {
+                margin-right: 5px;
+            }
+            p{
+                margin-top: 15px;
+            }
+        }
+        .vector1{
+            background: url(vector1.png)center/cover;
+            width: 70px;
+            height: 70px;
+            margin-left: 125px;
+            margin-top: 5px;
+        }
+        .grad1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            h2{
+                margin-top: 15px;
+            }
+        }
+        .days{
+            color: white;
+            .days1{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                h2{
+                    font-size: 14px;
+                    margin-left: 5px;
+                }
+                p{
+                    margin-right: 5px;
+                }
+            }
+            .days2{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                h2{
+                    font-size: 14px;
+                    margin-left: 5px;
+                }
+                p{
+                    margin-right: 5px;
+                }
+            }
+            .days3{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                h2{
+                    font-size: 14px;
+                    margin-left: 5px;
+                }
+                p{
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+
+    .box2 {
+        background-color: #006970;
+        grid-column: 6/8;
+        grid-row: 1/6;
+        margin-top: 30px;
+        border-radius: 10px;
+        .nav1 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            .i1 {
+                margin-left: 5px;
+            }
+            .i2 {
+                margin-right: 5px;
+            }
+            p{
+                margin-top: 15px;
+            }
+        }
+        .vector1{
+            background: url(vector1.png)center/cover;
+            width: 70px;
+            height: 70px;
+            margin-left: 125px;
+            margin-top: 5px;
+        }
+        .grad1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            h2{
+                margin-top: 15px;
+            }
+        }
+        .days{
+            color: white;
+            .days1{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                h2{
+                    font-size: 14px;
+                    margin-left: 5px;
+                }
+                p{
+                    margin-right: 5px;
+                }
+            }
+            .days2{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                h2{
+                    font-size: 14px;
+                    margin-left: 5px;
+                }
+                p{
+                    margin-right: 5px;
+                }
+            }
+            .days3{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                h2{
+                    font-size: 14px;
+                    margin-left: 5px;
+                }
+                p{
+                    margin-right: 5px;
+                }
+            }
+        }
+
+    }
+
+    .box3 {
+        background-color: #006970;
+        grid-column: 9/11;
+        grid-row: 1/6;
+        margin-top: 30px;
+        border-radius: 10px;
+        .nav1 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            .i1 {
+                margin-left: 5px;
+            }
+            .i2 {
+                margin-right: 5px;
+            }
+            p{
+                margin-top: 15px;
+            }
+        }
+        .vector1{
+            background: url(vector1.png)center/cover;
+            width: 70px;
+            height: 70px;
+            margin-left: 125px;
+            margin-top: 5px;
+        }
+        .grad1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            h2{
+                margin-top: 15px;
+            }
+        }
+        .days{
+            color: white;
+            .days1{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                h2{
+                    font-size: 14px;
+                    margin-left: 5px;
+                }
+                p{
+                    margin-right: 5px;
+                }
+            }
+            .days2{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                h2{
+                    font-size: 14px;
+                    margin-left: 5px;
+                }
+                p{
+                    margin-right: 5px;
+                }
+            }
+            .days3{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                h2{
+                    font-size: 14px;
+                    margin-left: 5px;
+                }
+                p{
+                    margin-right: 5px;
+                }
+            }
+        }
+
+    }
+
+    .box4 {
+        background-color: #006970;
+        grid-column: 3/5;
+        grid-row: 7/12;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        .nav1 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            .i1 {
+                margin-left: 5px;
+            }
+            .i2 {
+                margin-right: 5px;
+            }
+            p{
+                margin-top: 15px;
+            }
+        }
+        .vector1{
+            background: url(vector1.png)center/cover;
+            width: 70px;
+            height: 70px;
+            margin-left: 125px;
+            margin-top: 5px;
+        }
+        .grad1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            h2{
+                margin-top: 15px;
+            }
+        }
+        .days{
+            color: white;
+            .days1{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                h2{
+                    font-size: 14px;
+                    margin-left: 5px;
+                }
+                p{
+                    margin-right: 5px;
+                }
+            }
+            .days2{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                h2{
+                    font-size: 14px;
+                    margin-left: 5px;
+                }
+                p{
+                    margin-right: 5px;
+                }
+            }
+            .days3{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                h2{
+                    font-size: 14px;
+                    margin-left: 5px;
+                }
+                p{
+                    margin-right: 5px;
+                }
+            }
+        }
+
+    }
+
+    .box5 {
+        background-color: #006970;
+        grid-column: 6/8;
+        grid-row: 7/12;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        .nav1 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            .i1 {
+                margin-left: 5px;
+            }
+            .i2 {
+                margin-right: 5px;
+            }
+            p{
+                margin-top: 15px;
+            }
+        }
+        .vector1{
+            background: url(vector1.png)center/cover;
+            width: 70px;
+            height: 70px;
+            margin-left: 125px;
+            margin-top: 5px;
+        }
+        .grad1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            h2{
+                margin-top: 15px;
+            }
+        }
+        .days{
+            color: white;
+            .days1{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                h2{
+                    font-size: 14px;
+                    margin-left: 5px;
+                }
+                p{
+                    margin-right: 5px;
+                }
+            }
+            .days2{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                h2{
+                    font-size: 14px;
+                    margin-left: 5px;
+                }
+                p{
+                    margin-right: 5px;
+                }
+            }
+            .days3{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                h2{
+                    font-size: 14px;
+                    margin-left: 5px;
+                }
+                p{
+                    margin-right: 5px;
+                }
+            }
+        }
+
+    }
+
+    .box6 {
+        background-color: #006970;
+        grid-column: 9/11;
+        grid-row: 7/12;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        .nav1 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            .i1 {
+                margin-left: 5px;
+            }
+            .i2 {
+                margin-right: 5px;
+            }
+            p{
+                margin-top: 15px;
+            }
+        }
+        .vector1{
+            background: url(vector1.png)center/cover;
+            width: 70px;
+            height: 70px;
+            margin-left: 125px;
+            margin-top: 5px;
+        }
+        .grad1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            h2{
+                margin-top: 15px;
+            }
+        }
+        .days{
+            color: white;
+            .days1{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                h2{
+                    font-size: 14px;
+                    margin-left: 5px;
+                }
+                p{
+                    margin-right: 5px;
+                }
+            }
+            .days2{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                h2{
+                    font-size: 14px;
+                    margin-left: 5px;
+                }
+                p{
+                    margin-right: 5px;
+                }
+            }
+            .days3{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                h2{
+                    font-size: 14px;
+                    margin-left: 5px;
+                }
+                p{
+                    margin-right: 5px;
+                }
+            }
+        }
+
+    }
+}
